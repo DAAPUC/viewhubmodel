@@ -1,0 +1,17 @@
+{
+  "name": "forgesample",
+  "version": "1.0.0",
+  "description": "[![Node.js](https://img.shields.io/badge/Node.js-8.0-blue.svg)](https://nodejs.org/) [![npm](https://img.shields.io/badge/npm-4.0-blue.svg)](https://www.npmjs.com/) ![Platforms](https://img.shields.io/badge/platform-windows%20%7C%20osx%20%7C%20linux-lightgray.svg) [![License](http://img.shields.io/:license-mit-blue.svg)](http://opensource.org/licenses/MIT)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-session": "^2.0.0-beta.3",
+    "express": "^4.16.3",
+    "forge-apis": "^0.4.3"
+  },
+  "devDependencies": {}
+}
