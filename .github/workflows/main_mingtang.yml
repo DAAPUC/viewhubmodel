@@ -19,7 +19,7 @@ jobs:
     - name: Set up Node.js version
       uses: actions/setup-node@v1
       with:
-        node-version: '14.x'
+        node-version: '10.x'
 
     - name: npm install, build, and test
       run: |
@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'mingtang'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4813bd369478498cb9425b129ad2285f }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4661a5ed6ecd4be08157a2a48d550306 }}
         package: .
